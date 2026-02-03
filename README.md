@@ -16,4 +16,5 @@ This contains everything you need to run your app locally and deploy it to GitHu
    `npm run dev`
 3. Build for GitHub Pages (outputs to `/docs`):
    `npm run build`
-4. In GitHub: Settings → Pages → Deploy from a branch → `main` / `/docs`
+4. Commit the generated `/docs` folder (it must exist for Pages to serve).
+5. In GitHub: Settings → Pages → Deploy from a branch → `main` / `/docs`
